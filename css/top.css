@@ -1,0 +1,166 @@
+.main-visual {
+    width: 100%;
+}
+
+.content {
+    padding: 0 40px;
+}
+
+.content--shift-up {
+    margin: -40px 0 0 0;
+}
+
+.content--embossed {
+    box-shadow: 0 0 2px #aaaaaa;
+}
+
+.content--border-left-green {
+    border-left: solid 8px #0e3718;
+}
+
+.content__title {
+    color: #0e3718;
+
+    font-size: 1.8rem;
+}
+
+.tile-wrapper {
+    display: grid;
+    width: 400px;
+    height: 256px;
+    background-color: #ffffff;
+
+    grid-template-rows: repeat(2, 128px);
+    grid-template-columns: repeat(2, 200px);
+}
+
+.tile {
+    z-index: 4;
+    padding: 8px;
+    border: solid 1px #e0e0e0;
+    text-align: center;
+}
+
+.tile__description {
+    margin: 8px 0 0 0;
+
+    font-size: 1.6rem;
+}
+
+.information-board {
+    width: 700px;
+    height: 256px;
+    padding: 20px;
+    border: solid 1px #e0e0e0;
+    background-color: #ffffff;
+}
+
+.information-board__border {
+    margin: 8px 0 0 0;
+
+    border-top: solid 1px #e0e0e0;
+}
+
+.information-board__title {
+    padding: 0 0 0 8px;
+    color: #0e3718;
+
+    border-left: solid 8px #0e3718;
+}
+
+.information-board__content {
+    display: flex;
+    gap: 8px;
+    margin: 16px 0;
+    color: #0e3718;
+
+    font-size: 0.8rem;
+}
+
+.information-board__content-tag {
+    width: 70px;
+    background-color: #7a6010;
+    color: #ffffff;
+    text-align: center;
+}
+
+.information-board__content-tag--green {
+    background-color: #0e3718;
+}
+
+.information-board__content-tag--red {
+    background-color: #3c1a0c;
+}
+
+.notification {
+    margin: 20px 0;
+    padding: 20px;
+    border: solid 1px #cb5858;
+}
+
+.notification__title {
+    margin-bottom: 16px;
+    color: #cb5858;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.notification__body {
+    font-size: 1.4rem;
+}
+
+.headline {
+    width: 100%;
+    padding: 60px;
+}
+
+.headline--image-department {
+    background-image: url("/images/index_h2_001.jpg");
+    background-size: cover;
+    color: #0e3718;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.department-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    padding: 32px 40px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.department-list--medical {
+    background-image: url("/images/index_bg_001.jpg");
+}
+
+.department-list--dental {
+    background-image: url("/images/index_bg_002.jpg");
+}
+
+.department-list__table {
+    display: flex;
+}
+
+.department-list__table-item {
+    width: 200px;
+}
+
+.department-list__title {
+    margin: auto 0;
+    text-shadow: 0 0 5px #aaaaaa;
+    color: #fefefe;
+    font-size: 4.8rem;
+}
+
+.department-list__divider {
+    width: 60px;
+    height: 1px;
+    margin: 20px 0;
+    background-color: #dddddd;
+}
+
+.department-list__infomation {
+    color: #2c2c2c;
+}
