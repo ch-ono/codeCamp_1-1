@@ -448,7 +448,9 @@ html {
 }
 
 body {
-    width: 1200px;
+    /* width: 1200px; */
+    width: 100%;
+    min-width: 1200px;
     background: #ffffff;
 }
 
