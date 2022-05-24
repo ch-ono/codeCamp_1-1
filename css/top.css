@@ -112,23 +112,34 @@
 .headline {
     width: 100%;
     padding: 60px;
-}
-
-.headline--image-department {
-    background-image: url("/images/index_h2_001.jpg");
-    background-size: cover;
     color: #0e3718;
     font-size: 3rem;
     font-weight: bold;
 }
 
+.headline--introduction {
+    background-image: url("/images/index_h2_001.jpg");
+    background-size: cover;
+}
+
+.headline--bus-access {
+    background-image: url("/common/images/bus.jpg");
+    background-size: cover;
+}
+
+.headline--our-policy {
+    background-image: url("/common/images/our_policy.jpg");
+    background-size: cover;
+}
+
 .department-list {
     display: flex;
     justify-content: space-between;
-    margin: 40px;
+    margin: 40px 0;
     padding: 32px 40px;
     background-repeat: no-repeat;
     background-position: right;
+    background-size: contain;
 }
 
 .department-list--medical {
@@ -144,7 +155,15 @@
 }
 
 .department-list__table-item {
-    width: 200px;
+    /* width: 200px; */
+    margin-right: 20px;
+}
+
+.department-list__information__title {
+    color: #0e3718;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .department-list__title {
@@ -163,4 +182,5 @@
 
 .department-list__infomation {
     color: #2c2c2c;
+    font-size: 1.4rem;
 }
