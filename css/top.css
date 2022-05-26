@@ -24,6 +24,10 @@
     font-size: 1.8rem;
 }
 
+.content__bg-color-green {
+    background-color: #f5faf1;
+}
+
 .tile-wrapper {
     display: grid;
     width: 400px;
@@ -140,6 +144,7 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
+    background-color: #ffffff;
 }
 
 .department-list--medical {
@@ -152,11 +157,24 @@
 
 .department-list__table {
     display: flex;
+    gap: 0 70px; 
+}
+
+.department-list__flex {
+    display: flex;
+    gap: 0 20px; 
+}
+
+.department-list__flex-grow-2 {
+    flex-grow: 2;
+}
+
+.department-list__flex-grow-1 {
+    flex-grow: 1;
 }
 
 .department-list__table-item {
     /* width: 200px; */
-    margin-right: 20px;
 }
 
 .department-list__information__title {
