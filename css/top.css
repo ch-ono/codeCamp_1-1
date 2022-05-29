@@ -28,6 +28,18 @@
     background-color: #f5faf1;
 }
 
+.content__information__title {
+    color: #0e3718;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content__infomation {
+    color: #2c2c2c;
+    font-size: 1.4rem;
+}
+
 .tile-wrapper {
     display: grid;
     width: 400px;
@@ -119,6 +131,7 @@
     color: #0e3718;
     font-size: 3rem;
     font-weight: bold;
+    letter-spacing: 0.2rem;
 }
 
 .headline--introduction {
@@ -157,7 +170,6 @@
 
 .department-list__table {
     display: flex;
-    gap: 0 70px; 
 }
 
 .department-list__flex {
@@ -165,23 +177,12 @@
     gap: 0 20px; 
 }
 
-.department-list__flex-grow-2 {
-    flex-grow: 2;
-}
-
-.department-list__flex-grow-1 {
-    flex-grow: 1;
-}
-
 .department-list__table-item {
-    /* width: 200px; */
+    width: 200px;
 }
 
-.department-list__information__title {
-    color: #0e3718;
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+.department-list__table-item > a{
+    color: darkblue;
 }
 
 .department-list__title {
@@ -189,6 +190,7 @@
     text-shadow: 0 0 5px #aaaaaa;
     color: #fefefe;
     font-size: 4.8rem;
+    letter-spacing: 0.12rem;
 }
 
 .department-list__divider {
@@ -198,7 +200,53 @@
     background-color: #dddddd;
 }
 
-.department-list__infomation {
-    color: #2c2c2c;
-    font-size: 1.4rem;
+.access-list {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    padding: 32px 40px;
+    background-color: #ffffff;
+}
+
+.access-list__table-item {
+    width: 300px;
+}
+
+.work-list {
+    height: 200px;
+    flex-grow: 1;
+    justify-content:space-evenly;
+    margin: 40px 0;
+    padding: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-color: #ffffff;
+}
+
+.work-list--full-time-doctor {
+    background-image: url("/images/index_bg_003.png");
+}
+
+.work-list--part-time-doctor {
+    background-image: url("/images/index_bg_004.png");
+}
+
+.work-list--physical-therapist {
+    background-image: url("/images/index_bg_005.png");
+}
+
+.work-list--nursing-assistant {
+    background-image: url("/images/index_bg_006.png");
+}
+
+
+.flex-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 20px; 
+}
+
+.access-list a,  .work-list a {
+    color: darkblue;
 }
