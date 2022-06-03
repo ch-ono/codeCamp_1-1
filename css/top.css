@@ -3,7 +3,7 @@
 }
 
 .content {
-    padding: 0 40px;
+    padding: 0 40px 30px 40px;
 }
 
 .content--shift-up {
@@ -18,21 +18,16 @@
     border-left: solid 8px #0e3718;
 }
 
-.content__title {
-    color: #0e3718;
-
-    font-size: 1.8rem;
-}
-
 .content__bg-color-green {
-    background-color: #f5faf1;
+    background-color: #FBFDF5;
 }
 
-.content__information__title {
+.table-item-title {
     color: #0e3718;
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 10px;
+    letter-spacing: 0.2rem;
 }
 
 .content__infomation {
@@ -127,25 +122,28 @@
 
 .headline {
     width: 100%;
-    padding: 60px;
+    height: 150px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;         
     color: #0e3718;
     font-size: 3rem;
     font-weight: bold;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.6rem;
 }
 
 .headline--introduction {
-    background-image: url("/images/index_h2_001.jpg");
+    background-image: url("../images/index_h2_001.jpg");
     background-size: cover;
 }
 
 .headline--bus-access {
-    background-image: url("/common/images/bus.jpg");
+    background-image: url("../common/images/bus.jpg");
     background-size: cover;
 }
 
 .headline--our-policy {
-    background-image: url("/common/images/our_policy.jpg");
+    background-image: url("../common/images/our_policy.jpg");
     background-size: cover;
 }
 
@@ -153,7 +151,7 @@
     display: flex;
     justify-content: space-between;
     margin: 40px 0;
-    padding: 32px 40px;
+    padding: 25px 40px 15px 40px;
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -161,28 +159,19 @@
 }
 
 .department-list--medical {
-    background-image: url("/images/index_bg_001.jpg");
+    background-image: url("../images/index_bg_001.jpg");
 }
 
 .department-list--dental {
-    background-image: url("/images/index_bg_002.jpg");
+    background-image: url("../images/index_bg_002.jpg");
 }
 
 .department-list__table {
     display: flex;
 }
 
-.department-list__flex {
-    display: flex;
-    gap: 0 20px; 
-}
-
 .department-list__table-item {
     width: 200px;
-}
-
-.department-list__table-item > a{
-    color: darkblue;
 }
 
 .department-list__title {
@@ -196,7 +185,7 @@
 .department-list__divider {
     width: 60px;
     height: 1px;
-    margin: 20px 0;
+    margin: 12px 0;
     background-color: #dddddd;
 }
 
@@ -204,7 +193,7 @@
     display: flex;
     justify-content: space-between;
     margin: 40px 0;
-    padding: 32px 40px;
+    padding: 23px 40px 20px 40px;
     background-color: #ffffff;
 }
 
@@ -213,11 +202,12 @@
 }
 
 .work-list {
-    height: 200px;
+    height: 190px;
+    width: 100%;
     flex-grow: 1;
     justify-content:space-evenly;
     margin: 40px 0;
-    padding: 20px 20px;
+    padding: 15px 20px;
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -225,19 +215,19 @@
 }
 
 .work-list--full-time-doctor {
-    background-image: url("/images/index_bg_003.png");
+    background-image: url("../images/index_bg_003.png");
 }
 
 .work-list--part-time-doctor {
-    background-image: url("/images/index_bg_004.png");
+    background-image: url("../images/index_bg_004.png");
 }
 
 .work-list--physical-therapist {
-    background-image: url("/images/index_bg_005.png");
+    background-image: url("../images/index_bg_005.png");
 }
 
 .work-list--nursing-assistant {
-    background-image: url("/images/index_bg_006.png");
+    background-image: url("../images/index_bg_006.png");
 }
 
 
@@ -249,4 +239,8 @@
 
 .access-list a,  .work-list a {
     color: darkblue;
+}
+
+.work-list .table-item-title {
+    margin-bottom: 1px ;
 }
