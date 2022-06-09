@@ -523,3 +523,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+.footer__item--access {
+    margin-top: 10px;
+}

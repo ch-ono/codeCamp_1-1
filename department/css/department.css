@@ -1,7 +1,7 @@
 .breadcrumb {
   display: flex;
-  padding: 16px 40px;
-  background-color: #e6ebda;  
+  padding: 10px 40px;
+  background-color: #E8EEE8;  
 }
 
 .breadcrumb a {
@@ -10,48 +10,48 @@
 }
 
 .content {
-  padding: 40px 40px;
+  padding: 40px 40px 110px 40px;
 }
 
 .department-menu {
-  width: 25%;
+  width: 250px;
   box-shadow: 0 0 5px #aaaaaa;
 }
 
 .department-menu__title {
-  padding: 20px 20px;
+  padding: 16px 20px;
   background-color: #0e3718;
   color: #ffffff;
   font-size: 1.8rem;
 }
 .department-menu__sub-title {
-  padding: 10px 20px;
-  background-color: #f1f1f1;
+  padding: 9px 20px;
+  background-color: #F6F6F6;
 }
 .department-menu__item {
-  padding: 10px 40px;
+  padding: 8px 40px;
   background-color: #ffffff;
-  border-bottom: solid #f1f1f1;
+  border-bottom: solid #F6F6F6;
 }
 
 .department-menu__item:hover {
-  background-color: #f1f1f1;
+  background-color: #F6F6F6;
 }
 
 .department-introduction {
   width: 75%;
-  padding: 20px 20px;
+  padding: 0 20px;
 }
 
 .department-introduction__content {
-  padding: 10px 0;
+  padding: 8px 0 10px 0;
 }
 
 .department-introduction__title {
   font-size: 3rem;
   font-weight: bold;
   color: #0e3718;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.5rem;
 }
 
 .department-introduction__sub-title {
@@ -66,8 +66,8 @@
 .department-introduction__divider {
   width: 100%;
   height: 1px;
-  margin: 20px 0;
-  background-color: #f1f1f1;
+  margin: 20px 0 8px 0;
+  background-color: #F6F6F6;
 }
 
 .department-introduction_button {

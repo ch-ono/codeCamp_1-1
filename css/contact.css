@@ -1,6 +1,6 @@
 .contact__form {
   width: 800px;
-  padding: 40px 200px 40px 0;
+  padding: 40px 200px 110px 0;
 }
 
 .contact__title {
@@ -46,6 +46,12 @@
 
 .contact__form-item__checkbox input{
  transform: scale(1.5);
+}
+
+.contact__form-item__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .contact__form-item__checkbox label{
