@@ -133,17 +133,17 @@
 }
 
 .headline--introduction {
-    background-image: url("../images/index_h2_001.jpg");
+    background-image: url("/images/index_h2_001.jpg");
     background-size: cover;
 }
 
 .headline--bus-access {
-    background-image: url("../common/images/bus.jpg");
+    background-image: url("/common/images/bus.jpg");
     background-size: cover;
 }
 
 .headline--our-policy {
-    background-image: url("../common/images/our_policy.jpg");
+    background-image: url("/common/images/our_policy.jpg");
     background-size: cover;
 }
 
@@ -159,11 +159,11 @@
 }
 
 .department-list--medical {
-    background-image: url("../images/index_bg_001.jpg");
+    background-image: url("/images/index_bg_001.jpg");
 }
 
 .department-list--dental {
-    background-image: url("../images/index_bg_002.jpg");
+    background-image: url("/images/index_bg_002.jpg");
 }
 
 .department-list__table {
@@ -215,19 +215,19 @@
 }
 
 .work-list--full-time-doctor {
-    background-image: url("../images/index_bg_003.png");
+    background-image: url("/images/index_bg_003.png");
 }
 
 .work-list--part-time-doctor {
-    background-image: url("../images/index_bg_004.png");
+    background-image: url("/images/index_bg_004.png");
 }
 
 .work-list--physical-therapist {
-    background-image: url("../images/index_bg_005.png");
+    background-image: url("/images/index_bg_005.png");
 }
 
 .work-list--nursing-assistant {
-    background-image: url("../images/index_bg_006.png");
+    background-image: url("/images/index_bg_006.png");
 }
 
 
